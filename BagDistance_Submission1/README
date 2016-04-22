@@ -4,7 +4,7 @@ This submission implements the ChamferDistance+SVM method mentioned in Amores' p
 Step 1: Extract features using ResNet-101 model available at https://github.com/facebook/fb.resnet.torch.
 This is *not* necessarily the best feature extractor available. 
 
-Step 2: Compute Chamber distance between bags.
+Step 2: Compute Chamfer distances between bags.
 
 Step 3: Convert the distances to a kernel. Train SVM classifier for each attribute (9 in total) separately.
 
