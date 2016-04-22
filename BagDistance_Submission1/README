@@ -5,4 +5,7 @@ Step 1: Extract features using ResNet-101 model avaiable at https://github.com/f
 This is not necessarily the best model available as a feature extractor. 
 
 Step 2: Compute Chamber distance between bags.
+
 Step 3: Convert the distances to a kernel. Train SVM classifier for each attribute (9 in total) separately.
+
+The submission scores are 0.81427 for public LB and 0.82218 for private LB.
